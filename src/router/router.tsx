@@ -4,6 +4,7 @@ import {
   CompleteListPage,
   MensPage,
   NewProduct,
+  ProductView,
   StoreLayout,
   WomensPage,
 } from "../products"
@@ -29,6 +30,10 @@ export const router = createBrowserRouter([
       {
         path: "new",
         element: <NewProduct />,
+      },
+      {
+        path: ":id",
+        element: <ProductView />,
       },
     ],
   },

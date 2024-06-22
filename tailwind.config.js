@@ -1,8 +1,5 @@
 /** @type {import('tailwindcss').Config} */
-// tailwind.config.js
-// eslint-disable-next-line
-const {nextui} = require("@nextui-org/react");
-
+const { nextui } = require("@nextui-org/react")
 
 export default {
   content: [
@@ -14,4 +11,4 @@ export default {
   },
   darkMode: "class",
   plugins: [nextui()],
-};
+}
